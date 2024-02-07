@@ -8,3 +8,8 @@
   ## Cronograma
   - [x] aula 04 - Introdução ao Github (07/02/2024)
   - Criação do perfil no Github
+
+
+
+
+PALMEIRAS É UM BANDO DE PALHAÇO
