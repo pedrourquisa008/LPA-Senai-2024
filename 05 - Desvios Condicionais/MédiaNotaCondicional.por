@@ -17,15 +17,15 @@ programa
 	{
 
 
-	real n1, n2, n3, media
+	inteiro n1, n2, idade
 
-	escreva("Digite n1: ")
+	escreva("Digite ano atual: ")
 	leia(n1)
 	
-	escreva ("Digite n2: ")
+	escreva ("Digite ano de nascimento filhote: ")
 	leia(n2)
 	
-	escreva ("Digite n3: ")
+	escreva ("Digite : ")
 	leia(n3)
 	
 	media = (n1+n2+n3)/3
@@ -33,17 +33,17 @@ programa
 	limpa()
 	escreva("\n A média do aluno é: ",mat.arredondar(media,2))
 
-     se (media<5)
+     se (idade<5)
      {
      	escreva(" seu BOBINHO. Você está REPROVADO ")
      }
 
-	se (media>=5 e media<7)
+	se (idade>=5 e media<7)
 	{
 	     escreva(" ESTUDE, pois ainda há um pouco de esperança ")	
 	}
 	
-	se (media>=7)
+	se (idade>=7)
 	{
 		escreva(" APROVADO ")
 	}
@@ -58,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 428; 
+ * @POSICAO-CURSOR = 306; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
