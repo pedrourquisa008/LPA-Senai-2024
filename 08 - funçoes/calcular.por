@@ -1,42 +1,51 @@
+
 programa
+
 {
-	inteiro c
-	
+
+	 inteiro c = 0
+
 	funcao inicio()
+
 	{
-		calcular( 4, 2 )
+ 
+		inteiro d = 0
+
+		calcular(4,2) // argumentos
+
 		leia(c)
-		escreva(c)
 
-		se( verdadeiro ){
-		      cadeia f = "Pedrinho lindo"
+		escreva("VSFD MULEKE TMJ ;) ",c)
+ 
+		se(verdadeiro){
+
+			cadeia f = "Kamehameha"
+
+		//estrutura de decisão	
+
+	}
+ 
+	para( inteiro i = 0; i < 10; i++){
+
+	//estrutura de repetição	
+
+	} 
+
+}
+ 
+	funcao calcular(inteiro a, inteiro b){ // a e b são variáveis, inteiro são parâmetros
+
+		c = a * a + b * b 
+
 		}
-		escreva(f)
-	
 
-	     para( inteiro i = 0 ; i < 10 ; i++ ){
-	          real g //variável local
-	     }
-	     g = 0
-
-	}     
-		
-	
-  
-
-  funcao calcular( inteiro a, inteiro b){
-
-  	c = a * a + b * b + d
-
-  }
-
-
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 270; 
+ * @POSICAO-CURSOR = 0; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
